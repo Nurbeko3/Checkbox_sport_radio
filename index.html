@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- minify main css  -->
+    <link rel="stylesheet" href="./css/min.main.css">
+    <!-- normalize css  -->
+    <link rel="stylesheet" href="./css/nomalize.css">
+    
+    <!-- fonts online  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Checkbox_radio</title>
+</head>
+<body>
+    <div class="form-group">
+        <form>
+            <h2 class="form-group__title">Sport check</h2>
+            
+            <label>
+                <input type="radio" name="user_check" id="cheket-football" required>
+                <span class="custom-radio football"></span>
+                <span class="form-group__text">football</span>
+            </label>
+            
+            <label>
+                <input type="radio" name="user_check" id="checket-xokkey" required>
+                <span class="custom-radio xokkey"></span>
+                <span class="form-group__text">xakkey</span>
+            </label>
+            <label>
+                
+                <input type="radio" name="user_check" id="checket-volebal" required>
+                <span class="custom-radio volebol"></span>
+                <span class="form-group__text">volebol</span>
+            </label>
+            
+            <label>
+                <input checked disabled type="radio" name="user_check" id="checket-tenis" required>
+                <span class="custom-radio tenis"></span>
+                <span class="form-group__text">tenis</span>
+            </label>
+            
+            <button type="submit" class="form-group__btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
